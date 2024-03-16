@@ -37,7 +37,7 @@ The application uses Flask, a Python web framework, to create a lightweight web 
 Install and run locally:
 1. Install Python dependencies using pip:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
 
 2. Start the Flask application locally:
    ```bash
