@@ -15,6 +15,24 @@ The application uses Flask, a Python web framework, to create a lightweight web 
 
 ## Installation
 
+Install and run locally:
+1. Install Python dependencies using pip:
+   ```bash
+   pip install -r requirements.txt
+
+2. Start the Flask application locally:
+   ```bash
+   python app.py
+
+Install using Docker (optional)
+1. Build the Docker image:
+   ```bash
+   docker build -t ambient-weather-api .
+
+2. Run the Docker container:
+   ```bash
+   docker run -p 5000:5000 ambient-weather-api
+
 ### Prerequisites
 
 - Python 3.x installed on your system
