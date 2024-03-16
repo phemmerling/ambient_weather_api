@@ -1,3 +1,5 @@
+# This repository will not be maintained whatsoever.
+
 # Ambient Weather API
 
 The Ambient Weather API is a Flask-based web application that collects weather data from an Ambient Weather WS-2902D weather station and provides a simple API endpoint for retrieving weather metrics.
