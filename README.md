@@ -1,8 +1,12 @@
-# This repository will not be maintained whatsoever.
-
 # Ambient Weather API
 
 The Ambient Weather API is a Flask-based web application that collects weather data from an Ambient Weather WS-2902D weather station and provides a simple API endpoint for retrieving weather metrics.
+
+## Future Updates
+
+- Add instructions for installing and configuring Prometheus
+- Add instructions for installing and configuring Grafana
+- Add Grafana Dashboard template JSON file to repo
 
 ## Features
 
@@ -14,6 +18,19 @@ The Ambient Weather API is a Flask-based web application that collects weather d
 ## How It Works
 
 The application uses Flask, a Python web framework, to create a lightweight web server. It communicates with the Ambient Weather WS-2902D weather station to collect weather data such as temperature, humidity, wind speed, and more. The collected data is then made available through a RESTful API endpoint `/weather` for external consumption.
+
+### Prerequisites
+
+- Python 3.x installed on your system
+- Ambient Weather WS-2902D weather station connected and providing data
+- Docker (optional, for containerized deployment)
+
+### Clone Repository
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ambient_weather_api.git
+   cd ambient_weather_api
 
 ## Installation
 
@@ -35,15 +52,6 @@ Install using Docker (optional)
    ```bash
    docker run -p 5000:5000 ambient-weather-api
 
-### Prerequisites
 
-- Python 3.x installed on your system
-- Ambient Weather WS-2902D weather station connected and providing data
-- Docker (optional, for containerized deployment)
 
-### Clone Repository
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ambient_weather_api.git
-   cd ambient_weather_api
