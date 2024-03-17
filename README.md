@@ -1,6 +1,6 @@
 # Ambient Weather API
 
-The Ambient Weather API is a Flask-based web application that collects weather data from an Ambient Weather WS-2902D weather station and provides a simple API endpoint for retrieving weather metrics.
+The Ambient Weather API is a Flask-based web application that collects weather data from an Ambient Weather WS-2902D weather station and provides a simple API endpoint for retrieving weather metrics in a format that is usable by Prometheus, for visualization in Grafana (or other similar solution).
 
 ## Features
 
@@ -20,7 +20,7 @@ The Ambient Weather API is a Flask-based web application that collects weather d
 
 ## How It Works
 
-The application uses Flask, a Python web framework, to create a lightweight web server. It communicates with the Ambient Weather WS-2902D weather station to collect weather data such as temperature, humidity, wind speed, and more. The collected data is then made available through a RESTful API endpoint `/weather` for external consumption.
+The application uses Flask, a Python web framework, to create a lightweight web server. It communicates with the Ambient Weather WS-2902D weather station console to collect weather data such as temperature, humidity, wind speed, and more. The collected data is then made available through a RESTful API endpoint `/weather` for external consumption, in this case, Prometheus.
 
 ### Prerequisites
 
