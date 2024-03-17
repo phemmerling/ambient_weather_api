@@ -135,7 +135,9 @@ Install using Docker (optional)
 13. Verify Prometheus Installation:
     Open Prometheus in your web browser by visiting `http://localhost:9090`. You should see the Prometheus web interface.
 
-## Grafana Installation and Configuration (coming soon)
+## Grafana Installation and Configuration
+
+Coming soon!
 
 ## Contributing
 
