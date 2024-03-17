@@ -30,7 +30,6 @@ The application uses Flask, a Python web framework, to create a lightweight web 
 
 ## Clone Repository
 
-1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/ambient_weather_api.git
    cd ambient_weather_api
