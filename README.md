@@ -55,7 +55,7 @@ Install using Docker (optional)
    ```bash
    docker run -p 5000:5000 ambient-weather-api
 
-## Prometheus Installation
+## Prometheus Installation and Configuration
 
 1. Update Package Index:
    ```bash
