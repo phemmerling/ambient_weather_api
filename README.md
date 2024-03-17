@@ -28,7 +28,7 @@ The application uses Flask, a Python web framework, to create a lightweight web 
 - Ambient Weather WS-2902D weather station connected and providing data
 - Docker (optional, for containerized deployment)
 
-### Clone Repository
+## Clone Repository
 
 1. Clone the repository:
    ```bash
