@@ -97,7 +97,7 @@ Install using Docker (optional)
      scrape_interval: 15s
 
    scrape_configs:
-     - job_name: 'my_flask_app'
+     - job_name: 'ambient_weather_api'
      static_configs:
        - targets: ['localhost:5000']
 
